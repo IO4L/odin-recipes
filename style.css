@@ -5,14 +5,41 @@ body {
   font-family: Poppins, sans-serif;
 }
 
+.heading,
+.link-odin {
+  text-align: center;
+}
+
 .heading {
   color: white;
-  text-align: center;
 }
 
 .link-odin {
   color: wheat;
   display:block;
-  text-align:center
+}
+
+.lasagna-heading,
+.description-lasagna,
+.ingredients-heading-lasagna {
+  color: orange;
+  text-align: center;
+} 
+
+.lasagna-heading {
+  font-size: 40px;
+}
+
+.lasagna-picture {
+  width: 500px;
+  height: auto;
+}
+
+.description-text {
+  color: white;
+}
+
+.link-lasagna {
+  color: orange;
 }
 
