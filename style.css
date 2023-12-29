@@ -21,7 +21,8 @@ body {
 
 .lasagna-heading,
 .description-lasagna,
-.ingredients-heading-lasagna {
+.ingredients-heading-lasagna,
+.enjoy-text {
   color: orange;
   text-align: center;
 } 
@@ -39,7 +40,19 @@ body {
   color: white;
 }
 
-.link-lasagna {
+.link-lasagna,
+strong {
   color: orange;
 }
 
+.list {
+  color: white;
+}
+
+li::marker {
+  color: black;
+}
+
+.enjoy-text {
+  font-size: 10px;
+}
