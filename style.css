@@ -1,58 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
 
 body {
-  background-color: #15292B;
   font-family: Poppins, sans-serif;
+  box-sizing: border-box;
+  background-color: #15292B;
 }
 
-.heading,
-.link-odin {
-  text-align: center;
-}
-
-.heading {
+.index-heading,
+.main.heading {
   color: white;
-}
-
-.link-odin {
-  color: wheat;
-  display:block;
-}
-
-.lasagna-heading,
-.description-lasagna,
-.ingredients-heading-lasagna,
-.enjoy-text {
-  color: orange;
   text-align: center;
-} 
-
-.lasagna-heading {
-  font-size: 40px;
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 5px 0;
+  margin: 5px 50px;
+  font-size: 30px;
 }
 
-.lasagna-picture {
-  width: 500px;
+.odin-container {
+  margin-top: 25px;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.main-container {
+  color: white;
+  text-align: center;
+}
+
+.main.heading {
+  margin-bottom: 30px;
+  color: orange;
+}
+
+img {
+  width: 300px;
   height: auto;
+  border-radius: 5px;
 }
 
-.description-text {
+.description-container {
   color: white;
+  margin-top: 30px;
 }
 
-.link-lasagna,
-strong {
+ul,
+ol {
+  list-style-position: inside;
+}
+
+a,
+strong,
+.heading {
   color: orange;
 }
 
-.list {
-  color: white;
-}
-
-li::marker {
-  color: black;
-}
-
 .enjoy-text {
+  color: orange;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.back {
   font-size: 10px;
+  color: wheat;
 }
